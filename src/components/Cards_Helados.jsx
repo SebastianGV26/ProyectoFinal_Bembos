@@ -1,0 +1,32 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import like from '../images/amor.png'
+
+export const Cards_Helados = ({helados}) => {
+  return (
+    <>
+            <article className='Cards_hamburguesas'>
+                <div className='Card_arriba_hamburguesa'>
+                    <header>
+                        <span><img src={like} /></span>
+                    </header>
+                    <a href="#"><img className='img_promos_hamburguesa' src={helados.img} /></a>
+                </div>
+                <div className='Card_abajo'>
+                    <div className='Contenido_abajo_hamburguesa'>
+                        <div className='nombre_prom'>
+                            <h3>{helados.nombre}</h3>
+                        </div>
+                        <div className='precios_promos_hamburguer'>
+                            <p>S/. {helados.precio}</p>
+                        </div>
+                        <div className='terminos_hamburguesa'><Link>Términos y condiciones</Link></div>
+                        <div className="btn_promo">
+                            <button className='Vermas'>Ver más</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </>
+  )
+}

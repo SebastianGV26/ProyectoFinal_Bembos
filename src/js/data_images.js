@@ -8,4 +8,4 @@ export const images = [
     {
         id:3, imgUrl: "src/images/slider3.jpg"
     },
-]
+];

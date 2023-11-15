@@ -8,7 +8,6 @@ import { Footer } from './Footer';
 import { Derechos_footer } from './Derechos_footer';
 
 export const Principal = ({ promos, menu_online }) => {
-    console.log(menu_online);
     return (
         <>
             <Slider />
@@ -16,7 +15,7 @@ export const Principal = ({ promos, menu_online }) => {
                 <div className='container_titulo_promo'><h2 className='titulo_promo'>PROMOCIONES DE HAMBURGUESAS ONLINE</h2></div>
                 <div className='container_cards'>
                     {promos.map((promo) =>
-                        <Promociones_Hamburguesas promo={promo} key={promo.id} />
+                        <Promociones_Hamburguesas promo={promo} key={promo.nombre} />
                     )}
                 </div>
             </section>
@@ -24,7 +23,7 @@ export const Principal = ({ promos, menu_online }) => {
                 <div className='container_titulo_promo'><h2 className='titulo_promo'>MENU DE HAMBURGUESAS ONLINE</h2></div>
                 <div className='container_cards'>
                     {menu_online.map((online) =>
-                        <Promociones_Online online={online} key={online.id} />
+                        <Promociones_Online online={online} key={online} />
                     )}
                 </div>
             </section>

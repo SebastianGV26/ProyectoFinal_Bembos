@@ -3,6 +3,7 @@ import '../index.css'
 import logo from '../images/bembos_logo.png'
 import telefono from '../images/telefono.png'
 import horario_delivery from '../images/horario_delivery.jpeg'
+import { Link } from 'react-router-dom'
 export const Header = () => {
     return (
         <section className='container_principal'>
@@ -11,7 +12,7 @@ export const Header = () => {
             </div>
             <div className='container_header'>
                 <div className='container_izq'>
-                    <a href="#"><img className='logo' src={logo} alt="" /></a>
+                    <a href="/"><img className='logo' src={logo} alt="" /></a>
                 </div>
                 <div className='container_der'>
                     <div className='contenido_delivery'>
