@@ -12,6 +12,8 @@ import { Complementos } from './pages/Hamburguesas/Complementos.jsx'
 import { Bebidas } from './pages/Hamburguesas/Bebidas.jsx'
 import { Helados } from './pages/Hamburguesas/Helados.jsx'
 import { Combos } from './pages/Hamburguesas/Combos.jsx'
+import { Promociones } from './pages/Promociones.jsx'
+import { Login } from './pages/Login.jsx'
 
 const router = createBrowserRouter([
   {
@@ -62,6 +64,16 @@ const router = createBrowserRouter([
   {
     path: '/menu/combos',
     element: <Combos/>,
+    errorElement: <h1>Error inesperado</h1>
+  },
+  {
+    path: '/promociones',
+    element: <Promociones/>,
+    errorElement: <h1>Error inesperado</h1>
+  },
+  {
+    path: '/login',
+    element: <Login/>,
     errorElement: <h1>Error inesperado</h1>
   },
 ])

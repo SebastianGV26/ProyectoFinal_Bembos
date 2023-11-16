@@ -17,7 +17,7 @@ export const Promociones_Hamburguesas = ({ promo }) => {
       <article className="Cards">
         <div className="Card_arriba">
           <header>
-            <p>{descuento}%</p>
+            <p>-{descuento}%</p>
             <span>
               <img src={like} />
             </span>

@@ -14,7 +14,16 @@ export const NavBar = () => {
                 <ul className='nav_list'>
                     <div className='nav_izq'>
                     <Link to="/menu"><img className='img_navbar1' src={bmb_menu} alt="" />Menú</Link>
-                    <Link to="#"><img className='img_navbar2' src={bmb_promociones} alt="" />Promociones</Link>
+                    <div className='dropdown'>
+                    <Link to="/promociones" ><img className='img_navbar2' src={bmb_promociones} alt="" />Promociones</Link>
+                    <div className='menu'>
+                        <a href="#">Cyberbuenazo</a>
+                        <a href="#">Promociones Personales</a>
+                        <a href="#">Promociones para 2</a>
+                        <a href="#">Promociones para compartir</a>
+                        <a href="#">Cupones</a>
+                    </div>
+                    </div>
                     <Link to="/menu/lista-hamburguesas"><img className='img_navbar3' src={bmb_hamburguesa} alt="" />Hamburguesas</Link>
                     <Link to="#"><img className='img_navbar4' src={bmb_beneficios} alt="" />Beneficios</Link>
                     </div>

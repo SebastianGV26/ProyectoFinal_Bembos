@@ -431,5 +431,38 @@
             "precio": 23.8,
             "img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-clasica-nuevo-bb.jpg"
         }
+    ],
+    "cyberbuenazos": [
+        {
+            "nombre": "Dupla Perfecta Cyber",
+            "precio_actual": 24.90,
+            "precio_antiguo": 40.60,
+            "desc":"1 Cheese regular, 1 Royal regular, 2 papas regulares. Promoción válida por Cyber Buenazo, del 13 al 19 de noviembre.",
+            "desc_promo":"",
+            "img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-dupla-perfecta-cyber-nov-2023.webp"
+        },
+        {
+            "nombre": "Familiar Parrillero Cyber",
+            "precio_actual": 49.90,
+            "precio_antiguo": 85.20,
+            "desc":"2 Clásicas regulares, 2 Parrilleras regulares, 4 papas regulares. Promoción válida por Cyber Buenazo, del 13 al 19 de noviembre.",
+            "desc_promo":"",
+            "img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-familiar-parrillero-cyber-nov-2023.webp"
+        },
+        {
+            "nombre": "Extremadamente Cheesy Cyber",
+            "precio_actual": 52.90,
+            "precio_antiguo": 91.20,
+            "desc":"2 Extremas regulares, 2 Cheese regulares, 4 papas regulares. Promoción válida por Cyber Buenazo, del 13 al 19 de noviembre.",
+            "desc_promo":"",
+            "img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-extremadamente-cheesy-cyber-nov-2023.webp"
+        },
+        {
+            "nombre": "Queabuso Cyber Yape",
+            "precio_actual": 39.60,
+            "desc":"1 Queabuso regular, 1 Clásica regular, 2 papas regulares.",
+            "desc_promo":"Ingresa el cupón de Yape antes de finalizar la compra y obtén la promoción a S/ 26.90.",
+            "img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/q/u/queabuso-800x1370.webp"
+        }
     ]
 }
