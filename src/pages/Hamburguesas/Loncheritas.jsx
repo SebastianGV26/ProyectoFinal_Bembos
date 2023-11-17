@@ -27,7 +27,7 @@ export const Loncheritas = () => {
       <section className="container_navbar_hamburguesas">
         <NavBar_Hamburguesas/>
       </section>
-      <main className="container_main">
+      <main className="container_main_hamburguesas">
         <section className="container_lista_hamburguesas">
           <div className="titulo_card">¿CONOCES LAS LONCHERITAS BEMBOS?</div>
           <div className="container_hamburguesas">

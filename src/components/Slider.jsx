@@ -5,7 +5,6 @@ import derecha from "../images/derecha.png";
 import slider1 from "../images/slider1.jpg";
 import slider2 from "../images/slider2.jpg";
 import slider3 from "../images/slider3.jpg";
-import { images } from "../js/data_images";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 export const Slider = () => {

@@ -1,8 +1,11 @@
 import "../index.css";
 import like from "../images/amor.png";
 import { useEffect, useState } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 
 export const Promociones_Hamburguesas = ({ promo }) => {
+  const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
   const [descuento, setDescuento] = useState("");
   useEffect(() => {
     const formula = () => {
@@ -14,7 +17,7 @@ export const Promociones_Hamburguesas = ({ promo }) => {
   });
   return (
     <>
-      <article className="Cards">
+      <article className="Cards" ref={emblaRef}>
         <div className="Card_arriba">
           <header>
             <p>-{descuento}%</p>

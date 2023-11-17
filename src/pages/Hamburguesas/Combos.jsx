@@ -25,7 +25,7 @@ export const Combos = () => {
       <section className="container_navbar_hamburguesas">
         <NavBar_Hamburguesas/>
       </section>
-      <main className="container_main" id='combos'>
+      <main className="container_main_hamburguesas" id='combos'>
         <section className="container_lista_hamburguesas">
           <div className="titulo_card">CONSIGUE LOS COMPLEMENTOS BEMBOS EN TU CASA</div>
           <div className="container_hamburguesas">

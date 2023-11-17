@@ -70,12 +70,14 @@ export const Promociones = () => {
                     <h3>Promociones Personales</h3>
                 </div>
                 <div className="container_promocionesPersonales">
+                    <div className="container_cards_promospersonales">
                     {promosPersonales.map((personales) => (
                         <Cards_PromosPersonales
                             personales={personales}
                             key={personales.nombre}
                         />
                     ))}
+                    </div>
                 </div>
                 <div className="container_titulo_promocionespersonales">
                     <h3>Complementos:</h3>
